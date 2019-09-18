@@ -34,6 +34,9 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 8.x
+    - name: npm install and test
+      run: |
+        npm install
     - name: release with semantic-release
       if: github.ref == 'refs/heads/master'
       run: npm run semantic-release
