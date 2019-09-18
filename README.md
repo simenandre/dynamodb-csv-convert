@@ -25,5 +25,3 @@ This tool does not support; BS, NS, SS
 **[MIT](LICENSE)** Licensed
 
 ---
-
-[Optional footer information here. Maybe thank a friend. Maybe plug your Twitter account. Whatever.]
