@@ -1,0 +1,23 @@
+{
+  "name": "dynamodb-csv-convert",
+  "version": "1.0.0-prerelease",
+  "description": "(WIP) CLI-utility to convert DynamoDB CSV exports done in AWS Console",
+  "main": "convert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "convert.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cobraz/dynamodb-csv-convert.git"
+  },
+  "author": "cobraz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cobraz/dynamodb-csv-convert/issues"
+  },
+  "homepage": "https://github.com/cobraz/dynamodb-csv-convert#readme",
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
+}
