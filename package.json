@@ -1,7 +1,7 @@
 {
   "name": "dynamodb-csv-convert",
   "version": "0.0.0-development",
-  "description": "(WIP) CLI-utility to convert DynamoDB CSV exports done in AWS Console",
+  "description": "CLI-utility to convert DynamoDB CSV exports done in AWS Console",
   "main": "convert.js",
   "scripts": {
     "test": "jest",

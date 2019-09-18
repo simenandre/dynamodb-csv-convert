@@ -8,13 +8,22 @@ describe('dynamodb-csv-convert', () => {
         const res = convert.convertRow(row);
         expect(res).toHaveProperty('id');
         expect(res).toHaveProperty('binary');
+        expect(typeof res.binary).toBe('string');
         expect(res).toHaveProperty('binaryset');
+        // TODO: Support binaryset
+        expect(typeof res.binaryset).toBe('string');
         expect(res).toHaveProperty('boolean');
+        expect(typeof res.boolean).toBe('boolean');
         expect(res).toHaveProperty('list');
+        expect(typeof res.list).toBe('object');
         expect(res).toHaveProperty('map');
+        expect(typeof res.map).toBe('object');
         expect(res).toHaveProperty('null');
+        expect(res.null).toBe(null);
         expect(res).toHaveProperty('number');
+        expect(typeof res.number).toBe('number');
         expect(res).toHaveProperty('numberset');
+        expect(typeof res.numberset).toBe('string');
         expect(res).toHaveProperty('stringset');
     });
     it('should convert multiple rows', () => {

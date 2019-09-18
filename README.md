@@ -1,10 +1,8 @@
 # dynamodb-csv-convert
 
-(WIP) CLI-utility to convert DynamoDB CSV exports done in AWS Console
+CLI-utility to convert DynamoDB CSV exports done in AWS Console
 
 [![npm version](https://badge.fury.io/js/dynamodb-csv-convert.svg)](https://badge.fury.io/js/dynamodb-csv-convert)
-
-PLEASE DO NOT USE THIS YET. It's *not* done yet.
 
 
 ## Usage
@@ -15,47 +13,12 @@ This line will convert the file to json.
 $ npx dynamodb-csv-convert file.csv > file.json
 ```
 
-### Parameters
+## Please don't use this tool to do backups…
 
-[describe what parameters your package/function takes]
+And here is why. This tool is just for simple stuff – it's designed to be a small CLI utility to quickly convert those pesky (S), (SS), etc to a valid JSON document. However, this utility does not support the whole typeset that can be exported; thus, you'll have issues if you needed to convert this for any
+real things.
 
-| Parameter | Description                                |
-| :-------- | :----------------------------------------- |
-| `foo`     | A foo thingie (boolean). Default = `true`. |
-| `bar`     | A bar thingie (string). Default = `bar`.   |
-
-### Return
-
-[describe what is returned]
-
-| Key    | Description                                     |
-| :----- | :---------------------------------------------- |
-| `blah` | A boolean containing the current value of blah. |
-
-## Example
-
-[Write something here describing the sample code below. The example code SHOULD WORK!]
-
-```jsx
-import React from 'react';
-import { createThingie } from 'dynamodb-csv-convert';
-
-const Thingie = createThingie();
-
-const MyThingie = () => {
-  // Do some stuff
-
-  return <Thingie>Return some JSX</Thingie>;
-};
-
-export default MyThingie;
-```
-
-## Live demo
-
-You can view/edit the dynamodb-csv-convert demo app on CodeSandbox.
-
-[![Edit demo app on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/donavon/use-step-multi-step-form-demo/tree/master/?module=%2Fsrc%2FDarkModeToggle.jsx)
+This tool does not support; BS, NS, SS
 
 ## License
 
