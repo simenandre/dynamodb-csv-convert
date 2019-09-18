@@ -1,0 +1,3 @@
+"id (S)","binary (B)","binaryset (BS)","boolean (BOOL)","list (L)","map (M)","null (NULL)","number (N)","numberset (NS)","stringset (SS)"
+"test-id","dGhpcy1pcy1hLXRlc3Q=","{ dGVzdC1vbmU=, dGVzdC10d28= } ","true","[    { ""S"" : ""string"" },    { ""S"" : ""string-two"" }  ]","{    ""testOne"" : { ""S"" : ""this-is-a-test"" }  }","true","1337","{ 1, 2, 3 } ","{ ""one"", ""two"", ""three"" } "
+"test-id-two","dGhpcy1pcy1hLXRlc3Q=","{ dGVzdC1vbmU=, dGVzdC10d28= } ","true","[    { ""S"" : ""string"" },    { ""S"" : ""string-two"" }  ]","{    ""testOne"" : { ""S"" : ""this-is-a-test"" }  }","true","1337","{ 1, 2, 3 } ","{ ""one"", ""two"", ""three"" } "

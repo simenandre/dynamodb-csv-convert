@@ -1,3 +1,20 @@
 #!/usr/bin/env node
+const convert = require('../convert');
+(() => {
+  const [bin, sourcePath, filePath] = process.argv;
 
-require('../convert.js')();
+  if (!filePath) {
+    return console.log(
+      "Missing file attribute. Usage: npx dynamodb-db-convert file.csv"
+    );
+  }
+  if (!filePath.match(/.csv/)) {
+    return console.log(
+      "Looks like you are trying to convert something else than csv?"
+    );
+  }
+
+  console.log(
+      JSON.stringify(convert.convertFile(filePath), null, 2)
+  );
+})();

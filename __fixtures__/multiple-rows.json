@@ -1,0 +1,26 @@
+[
+  {
+    "id (S)": "test-id",
+    "binary (B)": "dGhpcy1pcy1hLXRlc3Q=",
+    "binaryset (BS)": "{ dGVzdC1vbmU=, dGVzdC10d28= }",
+    "boolean (BOOL)": "true",
+    "list (L)": "[    { \"S\" : \"string\" },    { \"S\" : \"string-two\" }  ]",
+    "map (M)": "{    \"testOne\" : { \"S\" : \"this-is-a-test\" }  }",
+    "null (NULL)": "true",
+    "number (N)": "1337",
+    "numberset (NS)": "{ 1, 2, 3 }",
+    "stringset (SS)": "{ \"one\", \"two\", \"three\" }"
+  },
+  {
+    "id (S)": "test-id-two",
+    "binary (B)": "dGhpcy1pcy1hLXRlc3Q=",
+    "binaryset (BS)": "{ dGVzdC1vbmU=, dGVzdC10d28= }",
+    "boolean (BOOL)": "true",
+    "list (L)": "[    { \"S\" : \"string\" },    { \"S\" : \"string-two\" }  ]",
+    "map (M)": "{    \"testOne\" : { \"S\" : \"this-is-a-test\" }  }",
+    "null (NULL)": "true",
+    "number (N)": "1337",
+    "numberset (NS)": "{ 1, 2, 3 }",
+    "stringset (SS)": "{ \"one\", \"two\", \"three\" }"
+  }
+]

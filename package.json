@@ -4,7 +4,7 @@
   "description": "(WIP) CLI-utility to convert DynamoDB CSV exports done in AWS Console",
   "main": "convert.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0",
+    "test": "jest",
     "semantic-release": "semantic-release"
   },
   "files": [
@@ -27,6 +27,7 @@
     "csvtojson": "^2.0.10"
   },
   "devDependencies": {
+    "jest": "^24.9.0",
     "semantic-release": "^15.13.24"
   }
 }
