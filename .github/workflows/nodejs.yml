@@ -36,3 +36,5 @@ jobs:
     - name: release with semantic-release
       if: github.ref == 'master'
       run: npm run semantic-release
+      env:
+        CI: true
