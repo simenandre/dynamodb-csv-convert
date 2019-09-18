@@ -1,6 +1,6 @@
 const csv = require('csvtojson');
 
-(async () => {
+module.exports = async () => {
   // find first argument (the file)
   const [bin, sourcePath, filePath] = process.argv;
   if (!filePath) {
@@ -26,4 +26,4 @@ const csv = require('csvtojson');
     });
     return newLine;
   }).filter(project => project), null, 2));
-})();
+};

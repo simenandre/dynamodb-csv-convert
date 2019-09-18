@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": "bin/dynamodb-csv-convert",
+  "bin": "./bin/dynamodb-csv-convert",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cobraz/dynamodb-csv-convert.git"
