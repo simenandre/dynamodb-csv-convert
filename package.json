@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 0",
     "semantic-release": "semantic-release"
   },
+  "files": [
+    "bin/dynamodb-csv-convert",
+    "convert.js"
+  ],
   "bin": "./bin/dynamodb-csv-convert",
   "repository": {
     "type": "git",

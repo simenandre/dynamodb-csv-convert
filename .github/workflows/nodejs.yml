@@ -23,6 +23,16 @@ jobs:
         npm test
       env:
         CI: true
+  release:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+      if: github.ref == 'master'
+    - name: Release with Node.js 8.x
+      if: github.ref == 'master'
+      uses: actions/setup-node@v1
+      with:
+        node-version: 8.x
     - name: release with semantic-release
       if: github.ref == 'master'
       run: npm run semantic-release
