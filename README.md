@@ -2,7 +2,7 @@
 
 CLI-utility to convert DynamoDB CSV exports done in AWS Console
 
-[![npm version](https://badge.fury.io/js/dynamodb-csv-convert.svg)](https://badge.fury.io/js/dynamodb-csv-convert)
+[![npm version](https://badge.fury.io/js/dynamodb-csv-convert.svg)](https://badge.fury.io/js/dynamodb-csv-convert) [![Greenkeeper badge](https://badges.greenkeeper.io/cobraz/dynamodb-csv-convert.svg)](https://greenkeeper.io/)
 
 
 ## Usage
