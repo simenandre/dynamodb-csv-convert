@@ -24,7 +24,7 @@
     "csvtojson": "^2.0.10"
   },
   "devDependencies": {
-    "jest": "^24.9.0",
+    "jest": "^26.0.0",
     "semantic-release": "^17.2.3"
   }
 }
