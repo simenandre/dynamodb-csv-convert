@@ -6,9 +6,9 @@
   "author": "simenandre <hello@simenandre.no>",
   "repository": "github:simenandre/dynamodb-csv-convert",
   "type": "module",
-  "bin": "./bin/dynamodb-csv-convert.mjs",
+  "bin": "./bin/dynamodb-csv-convert.js",
   "files": [
-    "bin/dynamodb-csv-convert.mjs",
+    "bin/dynamodb-csv-convert.js",
     "convert.js"
   ],
   "scripts": {

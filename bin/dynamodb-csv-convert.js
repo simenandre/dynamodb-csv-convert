@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import * as convert from '../convert.js';
 
 (async () => {
