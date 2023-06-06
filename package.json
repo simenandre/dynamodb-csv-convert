@@ -2,29 +2,33 @@
   "name": "dynamodb-csv-convert",
   "version": "0.0.0-development",
   "description": "CLI-utility to convert DynamoDB CSV exports done in AWS Console",
-  "homepage": "https://github.com/cobraz/dynamodb-csv-convert#readme",
-  "bugs": {
-    "url": "https://github.com/cobraz/dynamodb-csv-convert/issues"
-  },
-  "repository": "github:simenandre/dynamodb-csv-convert",
   "license": "MIT",
-  "author": "cobraz",
-  "main": "convert.js",
-  "bin": "./bin/dynamodb-csv-convert",
+  "author": "simenandre <hello@simenandre.no>",
+  "repository": "github:simenandre/dynamodb-csv-convert",
+  "type": "module",
+  "bin": "./bin/dynamodb-csv-convert.js",
   "files": [
-    "bin/dynamodb-csv-convert",
+    "bin/dynamodb-csv-convert.js",
     "convert.js"
   ],
   "scripts": {
-    "test": "jest",
-    "semantic-release": "semantic-release"
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest",
+    "test:run": "vitest run"
   },
   "dependencies": {
     "aws-sdk": "^2.530.0",
     "csvtojson": "^2.0.10"
   },
   "devDependencies": {
-    "jest": "^24.9.0",
-    "semantic-release": "^17.2.3"
-  }
+    "@simenandre/prettier": "^4.0.1",
+    "vitest": "^0.31.4"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "exports": "./convert.js",
+  "packageManager": "pnpm@8.6.1",
+  "prettier": "@simenandre/prettier"
 }

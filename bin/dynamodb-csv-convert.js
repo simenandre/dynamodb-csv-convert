@@ -1,7 +1,7 @@
-#!/usr/bin/env node
-const convert = require('../convert');
+import * as convert from '../convert.js';
+
 (async () => {
-  const [bin, sourcePath, filePath] = process.argv;
+  const [, , filePath] = process.argv;
 
   if (!filePath) {
     return console.log(
