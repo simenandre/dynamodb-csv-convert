@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  test:
+    name: Testing on Node LTS
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      - uses: pnpm/action-setup@v2
+
+      - name: Use Node LTS ✨
+        uses: actions/setup-node@v3
+        with:
+          node-version: lts/*
+          cache: pnpm
+
+      - name: Install dependencies 📦️
+        run: pnpm install --frozen-lockfile
+
+      - name: Build 🔨
+        run: pnpm build
+
+      - name: Lint 💅
+        run: pnpm lint
+
+      - name: Test 🧪
+        run: pnpm test
