@@ -5,16 +5,14 @@ import * as convert from '../convert.js';
 
   if (!filePath) {
     return console.log(
-      "Missing file attribute. Usage: npx dynamodb-db-convert file.csv"
+      'Missing file attribute. Usage: npx dynamodb-db-convert file.csv',
     );
   }
   if (!filePath.match(/.csv/)) {
     return console.log(
-      "Looks like you are trying to convert something else than csv?"
+      'Looks like you are trying to convert something else than csv?',
     );
   }
 
-  console.log(
-      JSON.stringify(await convert.convertFile(filePath), null, 2)
-  );
+  console.log(JSON.stringify(await convert.convertFile(filePath), null, 2));
 })();
