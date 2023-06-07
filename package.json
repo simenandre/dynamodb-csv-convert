@@ -11,15 +11,6 @@
     "bin/dynamodb-csv-convert.js",
     "convert.js"
   ],
-  "keywords": [
-    "dynamodb",
-    "csv",
-    "convert",
-    "json",
-    "dynamodb-to-json",
-    "dynamodb-csv-to-json",
-    "csv-to-json"
-  ],
   "scripts": {
     "format": "prettier --write .",
     "format:check": "prettier --check .",
@@ -34,6 +25,15 @@
     "@simenandre/prettier": "^4.0.1",
     "vitest": "^0.32.0"
   },
+  "keywords": [
+    "convert",
+    "csv",
+    "csv-to-json",
+    "dynamodb",
+    "dynamodb-csv-to-json",
+    "dynamodb-to-json",
+    "json"
+  ],
   "engines": {
     "node": ">=16"
   },
