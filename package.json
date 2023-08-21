@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@simenandre/prettier": "^4.0.1",
-    "vitest": "^0.32.0"
+    "vitest": "^0.34.0"
   },
   "keywords": [
     "convert",
