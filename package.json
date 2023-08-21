@@ -22,7 +22,7 @@
     "csvtojson": "^2.0.10"
   },
   "devDependencies": {
-    "@simenandre/prettier": "^4.0.1",
+    "@simenandre/prettier": "^5.0.0",
     "vitest": "^0.34.0"
   },
   "keywords": [
