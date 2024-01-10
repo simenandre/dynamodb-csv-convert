@@ -38,6 +38,6 @@
     "node": ">=16"
   },
   "exports": "./convert.js",
-  "packageManager": "pnpm@8.14.0",
+  "packageManager": "pnpm@8.14.1",
   "prettier": "@simenandre/prettier"
 }
