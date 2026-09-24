@@ -23,6 +23,6 @@ jobs:
       - name: Install dependencies 📦️
         run: pnpm install --frozen-lockfile
 
-      - uses: simenandre/publish-with-pnpm@v1
+      - uses: simenandre/publish-with-pnpm@v2
         with:
           npm-auth-token: ${{ secrets.NPM_TOKEN }}
